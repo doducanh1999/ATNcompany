@@ -26,8 +26,8 @@
 	</td></tr></table>
 	<div class="hnav">
 		<ul>
-			<li><a href="Assignment2.php">Home</a></li>
-			<li><a href="ATNDo.php">Shop</a></li>
+			<li><a href="index.php">Home</a></li>
+			<li><a href="ATNpage.php">Shop</a></li>
 			<li><a href="">About</a></li>
 			<li><a href="">Contact</a></li>
 			

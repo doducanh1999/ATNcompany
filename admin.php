@@ -29,8 +29,8 @@
 	</td></tr></table>
 	<div class="hnav">
 		<ul>
-			<li><a href="Assignment2.php">Home</a></li>
-			<li><a href="ATNDo.php">Shop</a></li>
+			<li><a href="index.php">Home</a></li>
+			<li><a href="ATNpage.php">Shop</a></li>
 			<li><a href="">About</a></li>
 			<li><a href="">Contact</a></li>
 			
@@ -93,7 +93,7 @@
                 <td><input type="submit" value="Update" /></td>
             </form>    
                 <td>
-                    <form class="frminline" action="Deleteproduct.php" method="post" onsubmit="return confirmDelete();">
+                    <form class="frminline" action="deleleproduct.php" method="post" onsubmit="return confirmDelete();">
                         <input type="hidden" name="toyid" value="<?php echo $row['toyid'] ?>" />
                         <input type="submit" value="Delete" />
                     </form>
@@ -118,7 +118,7 @@
         </table>  
 
    
-    <h2><a style="color:#100D0D; font-size :20px; margin-left :15%;" href="./AddATN.php">Add new product</a></h2>
+    <h2><a style="color:#100D0D; font-size :20px; margin-left :15%;" href="./addproduct.php">Add new product</a></h2>
 
 
 </body>

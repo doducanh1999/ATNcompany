@@ -30,8 +30,8 @@
 	</td></tr></table>
 	<div class="hnav">
 		<ul>
-			<li><a href="Assignment2.php">Home</a></li>
-			<li><a href="ATNDo.php">Shop</a></li>
+			<li><a href="index.php">Home</a></li>
+			<li><a href="ATNpage.php">Shop</a></li>
 			<li><a href="">About</a></li>
 			<li><a href="">Contact</a></li>
 			
@@ -92,7 +92,7 @@ if(isset($_POST['toyid'], $_POST['toyname'], $_POST['image'], $_POST['price'], $
 ?> 
 <center><h2>Add New Product <3 </h2></center>
 
-       <center> <form action="AddATN.php" method="post">
+       <center> <form action="addproduct.php" method="post">
 
          Toyid :   <input type="text" name="toyid" required placeholder="Toyid"><br><br>
 
